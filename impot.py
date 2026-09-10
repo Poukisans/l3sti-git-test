@@ -6,6 +6,7 @@ def calc_impots(revenu: int) -> str :
         180294: 41
     }
 
+     # si revenue sup à 180295
     if float(revenu) > 180295 :
          bareme_out = 45
     #sinon, calcul bareme
