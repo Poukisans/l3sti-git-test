@@ -8,6 +8,7 @@ def calc_impots(revenu: int) -> str :
 
     if float(revenu) > 180295 :
          bareme_out = 45
+    #sinon, calcul bareme
     else :
          for i in bareme :
 
